@@ -1,0 +1,29 @@
+.container {
+    width: 80%;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Product Sans';
+}
+.container h1 {
+    background-image: linear-gradient(
+        to Left,
+        violet,
+        indigo,
+        blue,
+        green,
+        yellow,
+        orange,
+        red
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container h2 {
+    margin: 50px;
+}
+
+.container button {
+    padding: 10px 20px;
+}
